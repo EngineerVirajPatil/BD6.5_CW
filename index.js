@@ -71,4 +71,5 @@ app.post("/api/reviews", (req, res) => {
   }
 });
 
-module.exports = { app, validateUser, validateBook, validateReview };
+export { app, validateUser, validateBook, validateReview };
+
