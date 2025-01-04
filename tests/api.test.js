@@ -1,6 +1,6 @@
-const request = require("supertest");
-const { app } = require("../index.js");
-const { validateUser, validateBook, validateReview } = require("../index.js");
+import request from "supertest";
+import app from "../index.js";
+import { app, validateUser, validateBook, validateReview } from "../index.js";
 
 let server;
 
